@@ -1,0 +1,51 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: larger;
+}
+
+.title-cont {
+  display: flex;
+}
+
+.main {
+  display: flex;
+}
+
+.submit_btn {
+  display: flex;
+  justify-content: end;
+  margin-left: 10.5%;
+}
+
+.list {
+  border: 4px solid black;
+  border-width: medium;
+  width: 100%;
+  padding: 0;
+}
+
+li {
+  background: white;
+  width: 100%;
+}
+
+li:nth-child(even) {
+  background: lightgray;
+}
+
+.footer {
+  background: lightgray;
+}
