@@ -11,23 +11,27 @@ ul {
 }
 
 header {
-  margin-top: 2%;
-  margin-left: 1%;
-  font-size: larger;
-}
-
-.title-cont {
   display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-right: 10%;
+  font-size: larger;
 }
 
 .main {
   display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10%;
 }
 
-.submit_btn {
+.scores {
+  flex-direction: column;
+  width: 20%;
+}
+
+.title-cont {
   display: flex;
-  justify-content: end;
-  margin-left: 10.5%;
 }
 
 .list {
@@ -44,6 +48,10 @@ li {
 
 li:nth-child(even) {
   background: lightgray;
+}
+
+.add_score {
+  width: 15%;
 }
 
 .footer {
