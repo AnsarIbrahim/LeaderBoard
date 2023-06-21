@@ -1,0 +1,59 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-right: 10%;
+  font-size: larger;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10%;
+}
+
+.scores {
+  flex-direction: column;
+  width: 20%;
+}
+
+.title-cont {
+  display: flex;
+}
+
+.list {
+  border: 4px solid black;
+  border-width: medium;
+  width: 100%;
+  padding: 0;
+}
+
+li {
+  background: white;
+  width: 100%;
+}
+
+li:nth-child(even) {
+  background: lightgray;
+}
+
+.add_score {
+  width: 15%;
+}
+
+.footer {
+  background: lightgray;
+}

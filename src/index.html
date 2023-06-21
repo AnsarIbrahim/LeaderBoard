@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Leader-Board</title>
+  </head>
+  <header class="ms-4 container">
+    <h1>Leaderboard</h1>
+  </header>
+  <body>
+    <!-- d-flex justify-content-around ms-4 -->
+    <main class="mt-4 main">
+      <section class="scores mt-3 ms-4">
+        <div class="title-cont">
+          <h2 class="recent-title">Recent Scores</h2>
+          <div class="refresh_btn">
+            <button class="btn btn-outline-secondary ms-3">Refresh</button>
+          </div>
+        </div>
+        <div class="title-cont mt-4" id="listContainer">
+          <ul class="list">
+            <!-- This content in JS -->
+          </ul>
+        </div>
+      </section>
+      <section id="add-score" class="add_score">
+        <div class="title cont">
+          <h2 class="add-score">Add Your score</h2>
+        </div>
+        <form class="form col-auto">
+          <div class="col-sm-5">
+            <input
+              type="text"
+              placeholder="Your name"
+              required
+              class="mt-4 form-control"
+            />
+            <input
+              type="text"
+              placeholder="Your score"
+              min="1"
+              required
+              class="mt-3 form-control"
+            />
+          </div>
+          <div class="add-btn">
+            <button
+              type="submit"
+              class="btn btn-outline-secondary mt-3 submit_btn"
+            >
+              submit
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div class="border border-black p-3 mb-2 footer"></div>
+  </footer>
+</html>
