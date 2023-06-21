@@ -5,58 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Leader-Board</title>
   </head>
-  <header class="ms-4 container">
-    <h1>Leaderboard</h1>
-  </header>
+  <header class="container mt-4"><h1>LeaderBoard</h1></header>
   <body>
-    <!-- d-flex justify-content-around ms-4 -->
-    <main class="mt-4 main">
-      <section class="scores mt-3 ms-4">
-        <div class="title-cont">
-          <h2 class="recent-title">Recent Scores</h2>
-          <div class="refresh_btn">
-            <button class="btn btn-outline-secondary ms-3">Refresh</button>
+    <main>
+      <section class="d-flex p-2">
+        <div class="container">
+          <div class="row">
+            <div class="col ms-5">
+              <div class="d-flex flex-row mb-3">
+                <h3>Recent scores</h3>
+                <div class="ms-5">
+                  <button type="button" class="btn btn-outline-secondary">
+                    Refresh
+                  </button>
+                </div>
+              </div>
+              <div class="border border-dark border-5" id="listContainer">
+                <ul id="container">
+                  <!-- This content belong to JS -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="d-flex flex-column mb-3">
+                <div><h3>Add your scores</h3></div>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  class="form-control mt-3"
+                />
+                <input
+                  type="text"
+                  placeholder="Your scores"
+                  class="form-control mt-3"
+                />
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn btn-outline-secondary mt-3">
+                    submit
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="title-cont mt-4" id="listContainer">
-          <ul class="list">
-            <!-- This content in JS -->
-          </ul>
-        </div>
-      </section>
-      <section id="add-score" class="add_score">
-        <div class="title cont">
-          <h2 class="add-score">Add Your score</h2>
-        </div>
-        <form class="form col-auto">
-          <div class="col-sm-5">
-            <input
-              type="text"
-              placeholder="Your name"
-              required
-              class="mt-4 form-control"
-            />
-            <input
-              type="text"
-              placeholder="Your score"
-              min="1"
-              required
-              class="mt-3 form-control"
-            />
-          </div>
-          <div class="add-btn">
-            <button
-              type="submit"
-              class="btn btn-outline-secondary mt-3 submit_btn"
-            >
-              submit
-            </button>
-          </div>
-        </form>
       </section>
     </main>
   </body>
   <footer>
-    <div class="border border-black p-3 mb-2 footer"></div>
+    <div
+      class="container border border-dark p-2 mt-3 text-center bg-secondary text-white"
+    >
+      @ Copy-right-2023
+    </div>
   </footer>
 </html>
