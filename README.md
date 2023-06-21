@@ -1,4 +1,3 @@
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -7,14 +6,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,16 +23,13 @@
 
 # 📖 LeaderBoard <a name="about-project"></a>
 
-
 **LeaderBoard** is a application that displays my Techinical skills and projects that i have done.
-
 
 **Link to online version of To Do List** is in [Live Demo](#live-demo)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>Client</summary>
@@ -78,11 +72,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -95,35 +87,30 @@ In order to run this project you need:
 ### Setup
 
 - Clone this repository to your desired folder with the following commend
+
 ```
 git clone git@github.com:AnsarIbrahim/LeaderBoard-new.git
 ```
-
 
 ### Install
 
 Install this project with:
 
-  -  [Git](https://git-scm.com/downloads)
-  -  [Node](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
 
 ### Usage
 
 To run the project, execute the following command:
+
 - After Cloning this repo to your local machine
-- ``` npm run start ```
+- `npm run start`
 
 ### Run tests
 
 - To run tests, run the following command:
-  - ``` npm run bulid ``` 
+  - `npm run bulid`
 
-### Deployment
-
-- You can deploy this project using:
-  - Type cd ``` LeaderBoard-new ```
-  - open index.html file in the browser
-  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -135,8 +122,6 @@ To run the project, execute the following command:
 - GitHub: [Ansar Ibrahim](https://github.com/AnsarIbrahim)
 - Twitter: [Ansar Ibrahim](https://twitter.com/ansaradheeb)
 - LinkedIn: [Ansar Ibrahim](https://linkedin.com/in/ansar-ibrahim-61447424a/)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +150,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 - If you like this project please give it a STAR⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -175,7 +159,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank following
-  - MicroVerse 
+  - MicroVerse
   - Leaderboard API service.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -187,5 +171,3 @@ Feel free to check the [issues page](../../issues/).
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
