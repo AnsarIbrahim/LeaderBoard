@@ -23,6 +23,7 @@ const refreshScores = () => {
     list.innerHTML = '';
     data.result.forEach((data) => {
       const gameList = document.createElement('li');
+      gameList.classList.add('text-white-50', 'bg-dark');
       gameList.innerHTML = `${data.user}: ${data.score}`;
       list.appendChild(gameList);
     });

@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Leader-Board</title>
   </head>
-  <header class="container mt-4"><h1>LeaderBoard</h1></header>
+  <header class="container mt-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+    <h1 class="link-info">Leader<span class="link-primary">Board</span></h1>
+  </header>
   <body>
-    <main>
+    <main class="container mt-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
       <section class="d-flex p-2">
         <div class="container">
           <div class="row">
-            <div class="col ms-5">
+            <div class="container col recent">
               <div class="d-flex flex-row mb-3">
-                <h3>Recent scores</h3>
+                <h3>Recent <span class="text-primary">scores</span></h3>
                 <div class="ms-5">
                   <button
                     type="button"
-                    class="btn btn-outline-secondary"
+                    class="btn btn-outline-primary"
                     id="refresh_btn"
                   >
                     Refresh
                   </button>
                 </div>
               </div>
-              <div class="border border-dark border-5" id="listContainer">
+              <div class="border border-info border-4" id="listContainer">
                 <ul id="container">
                   <!-- This content belong to JS -->
                 </ul>
               </div>
             </div>
 
-            <div class="col">
+            <div class="col mt-3">
               <div class="d-flex flex-column mb-3">
-                <div><h3>Add your scores</h3></div>
+                <div>
+                  <h3>Add <span class="text-primary">your</span> scores</h3>
+                </div>
                 <form class="form">
                   <input
                     id="name"
@@ -51,10 +55,7 @@
                     required
                   />
                   <div class="d-flex justify-content-end">
-                    <button
-                      type="submit"
-                      class="btn btn-outline-secondary mt-3"
-                    >
+                    <button type="submit" class="btn btn-outline-primary mt-3">
                       submit
                     </button>
                   </div>
@@ -68,9 +69,10 @@
   </body>
   <footer>
     <div
-      class="container border border-dark p-2 mt-3 text-center bg-secondary text-white"
+      class="container mt-3 text-center text-dark shadow p-3 mb-5 bg-body-tertiary rounded"
     >
-      @ Copy-right-2023
+      <span class="text-success">©</span> AnsarIbrahim
+      <span class="text-primary">2023</span>
     </div>
   </footer>
 </html>
