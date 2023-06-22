@@ -1,46 +1,36 @@
-import "../scss/styles.scss";
+import '../scss/styles.scss';
 
-const listDetails = () => {
-  const listData = [
-    {
-      Name: "Name",
-      Score: 100,
-    },
-    {
-      Name: "Name",
-      Score: 20,
-    },
-    {
-      Name: "Name",
-      Score: 50,
-    },
-    {
-      Name: "Name",
-      Score: 78,
-    },
-    {
-      Name: "Name",
-      Score: 125,
-    },
-    {
-      Name: "Name",
-      Score: 77,
-    },
-    {
-      Name: "Name",
-      Score: 42,
-    },
-  ];
+import leaderBoard from './module/API.js';
+import postData from './module/postData.js';
+import getData from './module/getData.js';
 
-  const listContainer = document.getElementById("listContainer");
-  const ul = document.getElementById("container");
+const form = document.querySelector('.form');
+const list = document.getElementById('container');
+const name = document.getElementById('name');
+const score = document.getElementById('score');
+const refreshBtn = document.getElementById('refresh_btn');
 
-  listData.forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = `${item.Name}: ${item.Score}`;
-    ul.appendChild(li);
+form.addEventListener('submit', (e) => {
+  const nameValue = name.value;
+  const scoreValue = score.value;
+  e.preventDefault();
+  postData(nameValue, scoreValue);
+  form.reset();
+});
+
+const refreshScores = () => {
+  getData().then((data) => {
+    list.innerHTML = '';
+    data.result.forEach((data) => {
+      const gameList = document.createElement('li');
+      gameList.innerHTML = `${data.user}: ${data.score}`;
+      list.appendChild(gameList);
+    });
   });
-
-  listContainer.appendChild(ul);
 };
-listDetails();
+
+refreshBtn.addEventListener('click', refreshScores);
+
+leaderBoard();
+
+window.onload = refreshScores;
