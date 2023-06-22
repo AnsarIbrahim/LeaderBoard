@@ -79,7 +79,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://ansaribrahim.github.io/LeaderBoard-new/dist/)
+- [Live Demo Link](https://ansaribrahim.github.io/LeaderBoard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +100,7 @@ In order to run this project you need:
 - Clone this repository to your desired folder with the following command
 
 ```
-git clone git@github.com:AnsarIbrahim/LeaderBoard-new.git
+git clone git@github.com:AnsarIbrahim/LeaderBoard.git
 ```
 
 ### Install
@@ -125,7 +125,7 @@ To run the project, execute the following command:
 ### Deployment
 
 - You can deploy this project using the following:
-- Type cd ``` LeaderBoard-new ```
+- Type cd ``` LeaderBoard ```
 - open the index.html file in the browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
